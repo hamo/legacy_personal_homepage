@@ -21,6 +21,18 @@ a.header:link,visited,hover,active {
 }
 #content {
     text-align: center;
+    color: #000000;
+    text-align: left;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    font-weight: bold;
+}
+#content h1,h2,h3,h4 {
+    font-weight: bolder;
+}
+#content big {
+    font-weight: bold;
 }
 #copyright {
     text-align: center;
