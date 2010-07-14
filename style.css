@@ -34,6 +34,24 @@ a.header:link,visited,hover,active {
 #content big {
     font-weight: bold;
 }
+#brand {
+    text-align: left;
+    margin-left: auto;
+    margin-right: auto;
+}
+#brand ul {
+    list-style-type: none;
+    clear: none;
+}
+#brand li {
+    float: left;
+    margin: 20px;
+    height: 150px;
+    width: auto;
+}
+#footer {
+    clear: both;
+}
 #copyright {
     text-align: center;
 }
