@@ -43,7 +43,7 @@ function stateChanged()
 { 
     if (xmlHttp.readyState==4)
     { 
-        if (xmlHttp.status=200){
+        if (xmlHttp.status==200){
             document.getElementById("content").innerHTML=xmlHttp.responseText;
         }
     }
