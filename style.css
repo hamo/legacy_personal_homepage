@@ -19,6 +19,10 @@ a.header:link,visited,hover,active {
     text-align: center;
     color: rgb(206,0,0);
 }
+#sayings p {
+    text-align: right;
+    width: 100%;
+}
 #content {
     text-align: center;
     color: #000000;
