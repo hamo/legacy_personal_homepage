@@ -37,6 +37,9 @@ function ChangeContent(str)
     if (str == "powered_by"){
         document.getElementById("content").style.width="100%";
     }
+    else{
+        document.getElementById("content").style.width="80%";
+    }
     xmlHttp.onreadystatechange=stateChanged;
     xmlHttp.open("GET",url,true);
     xmlHttp.send(null);
