@@ -54,4 +54,7 @@ function stateChanged()
             document.getElementById("content").innerHTML=xmlHttp.responseText;
         }
     }
+    else{
+        document.getElementById("content").innerHTML="<div style='text-align: center;'><img src='ajax-loader.gif' alt='' /></div>";
+    }
 }
