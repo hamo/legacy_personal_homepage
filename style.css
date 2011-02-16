@@ -61,7 +61,7 @@ a.header:link,visited,hover,active {
 #footer {
     clear: both;
 }
-#copyright {
+.copyright {
     text-align: center;
 }
 #version {
