@@ -3,17 +3,15 @@ function GetXmlHttpObject()
     var xmlHttp=null;
     try
     {
-        // Firefox, Opera 8.0+, Safari
         xmlHttp=new XMLHttpRequest();
     }
-    catch (e)
+    catch (e1)
     {
-        // Internet Explorer
         try
         {
             xmlHttp=new ActiveXObject("Msxml2.XMLHTTP");
         }
-        catch (e)
+        catch (e2)
         {
             xmlHttp=new ActiveXObject("Microsoft.XMLHTTP");
         }
